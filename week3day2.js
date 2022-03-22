@@ -28,7 +28,7 @@ const unionSorted = (arrLeft, arrRight) => {
     }
     while(iRight <= arrRight.length - 1){
         union.push(arrRight[iRight]);
-        ++iRight;
+        iRight++;
     }
     return union;
 }
